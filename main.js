@@ -59,7 +59,7 @@ function moveFile(source, dest) {
   } else {
     fs.rename(source, dest, err => {
       if (err) throw err 
-      console.log(fileCount + ". " + sourceFile + " -> " + destinationFile);   
+      console.log(fileCount + ". " + source + " -> " + dest);   
     })
   }  
 }
