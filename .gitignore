@@ -1,0 +1,5 @@
+node_modules/
+sorted_pictures/
+source_pictures/
+test.js
+mylog.log
